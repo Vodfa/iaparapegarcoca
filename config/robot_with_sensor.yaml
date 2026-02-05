@@ -1,0 +1,19 @@
+distance_mode: sensor
+audio:
+  input_device_index: null
+  output_voice: null
+  language: pt-BR
+vision:
+  model_path: yolov8n.pt
+  camera_index: 0
+  confidence_threshold: 0.4
+  focal_length_px: 700.0
+  known_object_width_m: 0.2
+ollama:
+  base_url: http://localhost:11434
+  model: chatgpt-120oss
+  temperature: 0.2
+arduino:
+  port: /dev/ttyACM0
+  baudrate: 115200
+  timeout_s: 1.0

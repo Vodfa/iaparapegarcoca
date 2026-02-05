@@ -1,0 +1,9 @@
+ollama
+requests
+ultralytics
+opencv-python
+pyserial
+speechrecognition
+pyttsx3
+pyaudio
+pyyaml
